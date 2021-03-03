@@ -1,0 +1,78 @@
+## 1.	Descrizione del cliente e obiettivo del sito
+*kWeebie* (di seguito “il sito”) è stato sviluppato da Matteo Pallanza (di seguito “il webmaster”) per conto di ***kWeebie ONLUS*** (di seguito “l'organizzazione”).
+
+*kWeebie ONLUS* è un'organizzazione non lucrativa di utilità sociale impegnata nella promozione di uno stile di vita ecosostenibile.
+
+L'obiettivo del sito è sensibilizzare i visitatori a uno sviluppo sostenibile, attraverso semplici consigli pratici da applicare durante la quotidianità.
+
+## 2.	Panoramica del sito
+Il sito è composto da 5 pagine (e 2 pagine ausiliarie).
+
+Il sito è composto esclusivamente da pagine dinamiche (*.php).
+
+La pagina **Home** (`/index.php`) fornisce una breve introduzione all'ecosostenibilità e allo sviluppo sostenibile, spiegando perché questi temi rivestono notevole importanza ai giorni nostri. Successivamente vengono raccontate la storia e la mission dell'organizzazione.
+È presente un bottone per effettuare una donazione tramite *PayPal*.
+
+La pagina **Cosa posso fare?** (`/cosa-posso-fare.php`) è composta da una galleria fotografica implementata in JavaScript. Attraverso la galleria vengono dispensati consigli da seguire nella quotidianità per minimizzare la propria impronta ecologica.
+
+La pagina **Mappa ecocompattatori** (`/mappa-ecocompattatori.php`) contiene una mappa generata utilizzando la libreria *Leaflet JS* (versione 1.5.1) e una tabella realizzata interrogando il database del sito.
+La mappa e la tabella riportano gli indirizzi di tutti gli ecocompattatori *Riciclia* presenti in Italia.
+Quando un visitatore raggiunge la pagina gli viene chiesta l'autorizzazione a essere geolocalizzato; se il visitatore acconsente, verrà visualizzata la sua posizione sulla mappa.
+
+Nella pagina **Scrivici** (`/scrivici.php`) è presente un modulo di contatto. Il visitatore può compilare i campi per inviare un messaggio all'organizzazione. I campi devono essere compilati in modo adeguato, rispettando le espressioni regolari e i limiti previsti. Il visitatore può decidere di iscriversi alla newsletter trimestrale tramite una checkbox.
+
+La pagina ausiliaria **Messaggio inviato** (`/messaggio-inviato.php`) informa il visitatore dell'avvenuto invio del messaggio e poi lo redireziona alla pagina Home.
+
+La pagina **Area riservata** (`/area-riservata.php`) permette al visitatore di autenticarsi al sito come utente registrato. Se le credenziali inserite sono presenti nel database del sito, l'accesso viene consentito, altrimenti negato. Una volta autenticato, l'utente registrato può visualizzare la pagina ausiliaria **Contenuto protetto** (`/contenuto-protetto.php`) fino al termine della sessione.
+Se un visitatore tenta di visualizzare la pagina *Contenuto protetto*, verrà reindirizzato alla pagina *Area riservata* per effettuare l'autenticazione.
+
+## 3.	Principali funzionalità del sito
+Il sito include le seguenti funzionalità:
+*	Galleria di immagini con consigli pratici
+*	Mappa degli ecocompattatori con geolocalizzazione del visitatore
+*	Form di contatto con possibilità di iscrizione alla newsletter
+*	Area riservata agli utenti registrati
+
+## 4.	Testi, immagini e altre proprietà intellettuali presenti sul sito
+I **testi** presenti sul sito sono stati realizzati dal webmaster.
+
+Le **immagini** presenti nella galleria sono state ottenute attraverso il sito *Unsplash.com*. Gli autori le hanno rilasciate nel pubblico dominio e possono essere utilizzate gratuitamente anche per fini commerciali. L'immagine con le bottiglie e gli spazzolini è stata creata dal webmaster, unendo le foto promozionali dei prodotti distribuite dalle rispettive aziende.
+
+I **dati cartografici** sono distribuiti con licenza *Open Database License* dalla *OpenStreetMap Foundation*.
+
+Le **immagini cartografiche** sono distribuite con licenza *Creative Commons Attribuzione 3.0* da *Mapbox*.
+
+Il __logo *PayPal*__ è di proprietà di **PayPal Holdings, Incorporation**.
+
+Il __logo *kWeebie*__ è un'opera derivata dell'emoji *Seedling* del pacchetto *Streamline Emoji*, distribuito con licenza *Creative Commons Attribuzione 4.0* da *Vincent Le Moign*.
+
+## 5.	Configurazione hardware/software del sito
+Il sito è sviluppato prevalentemente utilizzando i linguaggi **HTML** e **PHP**.
+
+Per la creazione della galleria fotografica e della mappa è stato utilizzato **JavaScript**.
+
+Il sito risiede su un server *Apache* gestito da *Altervista*, piattaforma controllata da *Arnoldo Mondadori Editore S.p.A.*; il sito è raggiungibile all'indirizzo ***unknown.altervista.org***.
+
+Il sito dispone di un database **MySQL 5.6** che si occupa di memorizzare le seguenti informazioni:
+* nella tabella ***ecocompattatori*** sono presenti le informazioni geografiche e toponomastiche relative agli ecocompattatori presenti in Italia; queste servono per realizzare la tabella presente nella pagina *Mappa ecocompattatori*;
+*	nella tabella ***scrivici*** sono presenti il nome, l'e-mail, il messaggio e il desiderio di iscrizione alla newsletter dei visitatori che hanno utilizzato il modulo di contatto presente nella pagina *Scrivici*;
+*	nella tabella ***utenti*** sono memorizzate le credenziali di accesso degli utenti registrati al sito.                                                    (continua)
+
+## 6.	Attività SEO-SEM, Web Marketing del sito
+Nelle singole pagine sono presenti indicazioni per i bots dei motori di ricerca, all'interno del meta tag ***robots***. Tutte le pagine del sito, ad eccezione di quelle ausiliarie, verranno indicizzate.
+
+Negli attributi ***keywords*** e ***description*** di ogni pagina sono contenute le informazioni per favorire una migliore indicizzazione.
+
+## 7.	Assistenza e formazione post-vendita del sito
+Il sito è ***pronto all'uso*** e l'organizzazione non necessita di formazione specifica.
+
+L'organizzazione, attraverso un software terzo può gestire i dati degli utenti registrati, controllare le richieste pervenute attraverso il modulo di contatto e inserire, aggiornare o rimuovere gli ecocompattatori all'interno della tabella dedicata. Per aggiornare gli ecocompattatori sulla mappa, l'organizzazione dovrà contattare il webmaster, che dovrà agire manualmente sul file `ecocomp-mappa.js`.
+
+Per qualsiasi problema tecnico riscontrato durante il funzionamento del sito, il cliente potrà contattare il webmaster durante i consueti orari di lavoro.
+
+Per la fase iniziale sono previste attività di monitoraggio dei dati sulle visite al sito attraverso lo strumento di analisi fornito da *Altervista*. Successivamente potrà essere valutata la possibilità di affidarsi a servizi più completi (e.g. *Google Analytics*), al fine di valutare il comportamento dei visitatori sul sito.
+
+## 8.	Ulteriori informazioni sul sito
+Le immagini presenti sul sito sono state compresse per velocizzare il caricamento delle pagine.
+
+Il codice HTML è stato validato tramite lo strumento *W3C Markup Validation Service*.
