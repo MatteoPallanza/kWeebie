@@ -1,0 +1,350 @@
+/* Sfondo del body. */
+body {
+	background-image: linear-gradient(to top, #f78ca0 0%, #f9748f 20%, #fd868c 60%, #fe9a8b 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: "Roboto", sans-serif;
+}
+
+/* Barra laterale. */
+#sidebar {
+	position: fixed;
+	top: 0.5em;
+	left: 0.5em;
+	width: 25em;
+	border-radius: 2em 0;
+	margin: 1em;
+	padding: .65em;
+	box-shadow: .3em .3em hsla(0, 0%, 0%, 0.1);
+	background-color: #9ceb60;
+	background-image: linear-gradient(to bottom right, #9ceb60, #6dd627);
+	font-family: "Baloo Bhai", sans-serif;
+	text-align: center;
+	color: white;
+	text-shadow: .125em .125em #6dd627;
+}
+
+/* Link nella barra laterale. */
+#sidebar #navbox {
+	margin: 1.5em 0;
+	font-size: 20pt;
+	letter-spacing: 1.5pt;
+}
+
+/* Link nella barra laterale. */
+#sidebar #navbox a:visited,
+#sidebar #navbox a:link {
+	color: white;
+	text-decoration: none;
+}
+
+/* Separatore tra i link di "navbox". */
+#navbox hr {
+	border-style: double;
+	border-color: white;
+	box-shadow: .125em .125em #6dd627;
+	margin: 1em 3em;
+}
+
+/* Contenuto principale della pagina. */
+#content {
+	overflow: hidden;
+	border-radius: 0 2em;
+	margin: 1.5em 1em 0em 28.25em;
+	padding: 1.3em;
+	box-shadow: .3em .3em hsla(0, 0%, 0%, 0.1);
+	background-color: #e4e4e4;
+	background-image: linear-gradient(to bottom right, #f7f7f7, #e4e4e4);
+	font-family: "Roboto", sans-serif;
+	color: #313131;
+}
+
+/* Linee di divisione nella pagina. */
+#content hr {
+	border: .075em solid #ddd;
+}
+
+/* Titolo della pagina. */
+#content>h1 {
+	font-family: "Baloo Bhai", sans-serif;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 30pt;
+}
+
+/* Sottotitoli nella pagina. */
+h2 {
+	font-family: "Baloo Bhai", sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	padding-bottom: 0;
+	font-size: 25pt;
+}
+
+/* Raggruppamento nei form. */
+fieldset {
+	border-radius: 0 2em;
+}
+
+/* Campi di tipo testo, email, password e bottone di invio. */
+form input[type="text"],
+[type="email"],
+[type="password"],
+[type="submit"] {
+	border: .125em solid #ccc;
+	height: 2.5em;
+	width: 31.25em;
+	font-size: 15pt;
+	margin-top: .25em;
+	padding: 0 .65em;
+}
+
+/* Bottone di invio. */
+form input[type="submit"] {
+	background-color: #9ceb60;
+	background-image: linear-gradient(to bottom right, #9ceb60, #6dd627);
+	width: 32.75em;
+	border: none;
+	color: white;
+	text-shadow: .125em .125em #6dd627;
+	font-weight: 700;
+	border-radius: 2em;
+	box-shadow: .2em .2em hsla(0, 0%, 0%, 0.1);
+	cursor: pointer;
+}
+
+/* Campo textarea. */
+form textarea {
+	font-family: "Roboto", sans-serif;
+	border: .125em solid #ccc;
+	height: 10em;
+	width: 31.25em;
+	font-size: 15pt;
+	margin-top: .25em;
+	padding: .65em;
+	resize: none;
+}
+
+/* Indicazioni aggiuntive sulla compilazione. */
+form .gray-message {
+	font-weight: 200;
+	color: rgb(160, 160, 160);
+}
+
+/* Campi del form. */
+form label {
+	margin-bottom: 5em;
+}
+
+/* Campo newsletter. */
+form #newsletter {
+	width: 40em;
+	text-align: center;
+}
+
+/* Conferma dell'invio del messaggio. */
+#sent {
+	border: .25em solid #6dd627;
+	background-color: white;
+	padding: .75em;
+}
+
+/* Contenitore della mappa. */
+#map {
+	height: 55em;
+	border-radius: 0 2em;
+}
+
+/* Contenitore della tabella. */
+#table-wrapper {
+	border-radius: 2em 2em 0 0;
+	overflow-x: auto;
+}
+
+/* Tabella ecocompattatori. */
+#ecocompattatori {
+	border-collapse: collapse;
+	font-size: 14.5pt;
+}
+
+/* Effetto al passaggio del mouse sulle righe. */
+#ecocompattatori tr:hover {
+	background-color: #d4f4be;
+}
+
+/* Celle della tabella. */
+#ecocompattatori td {
+	border-top: .075em solid #ddd;
+	padding: .65em;
+}
+
+/* Celle della tabella. */
+#ecocompattatori #accessibilità {
+	font-weight: 600;
+	text-align: center;
+}
+
+/* Intestazioni della tabella. */
+#ecocompattatori th {
+	padding: .3em;
+	background-color: #6dd627;
+	color: white;
+	text-transform: uppercase;
+}
+
+/* Contenitore della galleria. */
+.slider {
+	width: 100%;
+	position: relative;
+	margin: auto;
+}
+
+/* Diapositive. */
+.slide {
+	display: none
+}
+
+/* Immagini delle diapositive. */
+.slide img {
+	width: 100%;
+	border-radius: 0 2em;
+}
+
+/* Frecce di navigazione. */
+.left,
+.right {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.right {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.left:hover,
+.right:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Overlay con titolo e descrizione. */
+.content {
+	padding: 8px 12px;
+	position: absolute;
+	top: 15px;
+	width: 97%;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0 2em 2em 0;
+}
+
+/* Titolo dell'immagine. */
+.title {
+	font-family: "Baloo Bhai", sans-serif;
+	letter-spacing: 0.025em;
+	font-size: 20pt;
+}
+
+/* Descrizione dell'immagine.*/
+.description {
+	letter-spacing: 0.025em;
+	font-size: 16pt;
+	font-weight: 500;
+}
+
+/* Contenitore del bottone. */ 
+.button {
+	text-align: center;
+}
+
+/* Bottone. */
+.button a {
+	background-color: #f9748f;
+	background-image: linear-gradient(to top right, #f78ca0 0%, #f9748f 20%, #fd868c 60%, #fe9a8b 100%);
+	border-radius: 2em;
+	padding: .5em .8em;
+	text-transform: uppercase;
+	color: white;
+	font-size: 18pt;
+	font-weight: 800;
+	text-decoration: none;
+	letter-spacing: 0.15em;
+	text-shadow: .1em .1em #f9748f;
+	box-shadow: .15em .15em hsla(0, 0%, 0%, 0.1);
+}
+
+/* Overlay con nome e link dell'autore. */
+.credit {
+	padding: 8px 8px;
+	position: absolute;
+	bottom: 10px;
+	right: 6px;
+	color: rgb(180, 180, 180);
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: .3em;
+}
+
+.credit a:link,
+.credit a:visited {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+/* Effetto comparsa. */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+/* Pulsante per le donazioni. */
+.donate {
+	background-color: orange;
+	color: white;
+	text-align: center;
+	padding: 0.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 150%;
+	letter-spacing: 0.15em;
+	border-radius: .3em;
+	box-shadow: .05em .05em hsla(0, 0%, 0%, 0.1);
+}
+
+.donate:hover {
+	background-color: rgb(255, 157, 0);
+	box-shadow: .08em .08em hsla(0, 0%, 0%, 0.1);
+}
+
+/* Animazione dell'effetto comparsa. */
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
