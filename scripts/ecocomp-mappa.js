@@ -9,7 +9,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
         'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox.streets',
-    accessToken: 'pk.eyJ1IjoibWF0dGVvcGFsbGFuemEiLCJhIjoiY2p2bTc2bGhsMGtlMDQ5cXMzbTlwYmtycyJ9.9CszuQhQvYaCX_Ftxpq3pg'
+    accessToken: 'insert-mapbox-access-token'
 }).addTo(mappaEcocompattatori);
 
 /* Definisco una nuova icona. */
