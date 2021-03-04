@@ -1,9 +1,9 @@
 <?php
 
 	/* Imposto le credenziali per l'accesso al database. */
-	$dsn = "mysql:dbname=my_pweb1819pallanzam;host=localhost";
-	$username = "root";	
-	$password = "";
+	$dsn = "mysql:dbname=insert-db;host=localhost";
+	$username = "insert-usr";	
+	$password = "insert-psw";
 	
 	try{
 		/* Mi connetto al database utilizzando le credenziali impostate in precedenza. */
