@@ -1,7 +1,7 @@
 <div id="sidebar">
-    <a href="/"><img src="images/logo.png" alt="logo del sito"></a>
+    <a href="index.php"><img src="images/logo.png" alt="logo del sito"></a>
     <div id="navbox">
-        <a href="/">HOME</a>
+        <a href="index-php">HOME</a>
         <hr>
         <a href="cosa-posso-fare.php">COSA POSSO FARE?</a>
         <hr>
