@@ -4,7 +4,7 @@ CREATE TABLE utenti (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 INSERT INTO utenti (usr, psw) VALUES
-("admin", "admin"),
+("admin", "admin");
 
 CREATE TABLE scrivici (
   nome varchar(20) NOT NULL,
