@@ -6,7 +6,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?acce
     attribution: '© <a href="https://apps.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     maxZoom: 18,
     id: 'streets-v11',
-    accessToken: 'insert-mapbox-access-token'
+    accessToken: 'your.accessToken'
 }).addTo(mappaEcocompattatori);
 
 /* Definisco una nuova icona. */
