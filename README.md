@@ -65,7 +65,7 @@ Il sito dispone di un database **MariaDB 10.2** che si occupa di memorizzare le 
 ## 6. Attività SEO-SEM, Web Marketing del sito
 Nelle singole pagine sono presenti indicazioni per i bots dei motori di ricerca, all'interno del meta tag ***robots***. Tutte le pagine del sito, ad eccezione di quelle ausiliarie, verranno indicizzate.
 
-> **NOTA**: nell'implementazione disponibile sul sito :link:[matteopallanza.me/kweebie](https://matteopallanza.me/kweebie) tutte le pagine non verranno indicizzate dai motori di ricerca.
+> **NOTA**: nell'implementazione disponibile sul sito :link:[matteopallanza.me/kweebie](https://matteopallanza.me/kweebie) tutte le pagine **non** verranno indicizzate dai motori di ricerca.
 
 Negli attributi ***keywords*** e ***description*** di ogni pagina sono contenute le informazioni per favorire una migliore indicizzazione.
 
