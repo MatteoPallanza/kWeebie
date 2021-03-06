@@ -5,6 +5,8 @@
 
 *kWeebie ONLUS* è un'organizzazione non lucrativa di utilità sociale impegnata nella promozione di uno stile di vita ecosostenibile.
 
+> **NOTA**: *kWeebie ONLUS* è un'organizzazione fittizia, ideata a meri scopi didattici.
+
 L'obiettivo del sito è sensibilizzare i visitatori a uno sviluppo sostenibile, attraverso semplici consigli pratici da applicare durante la quotidianità.
 
 ## 2. Panoramica del sito
