@@ -5,7 +5,6 @@ CREATE TABLE utenti (
 
 INSERT INTO utenti (usr, psw) VALUES
 ("admin", "admin"),
-("matteo", "password");
 
 CREATE TABLE scrivici (
   nome varchar(20) NOT NULL,
