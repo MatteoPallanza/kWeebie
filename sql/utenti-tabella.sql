@@ -6,5 +6,4 @@ CREATE TABLE utenti (
 
 /* Popolamento della tabella. */
 INSERT INTO utenti (usr, psw) VALUES
-("admin", "admin"),
-("matteo", "password");
+("admin", "admin");
