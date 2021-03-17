@@ -1,3 +1,9 @@
+```diff
+Questo progetto è stato realizzato nel maggio 2019 per un progetto didattico.
+Alcuni dei costrutti utilizzati potrebbero risultare obsoleti.
+Il sito non è responsive.
+```
+
 # :scroll:Informazioni sul sito
 
 ## 1. Descrizione del cliente e obiettivo del sito
